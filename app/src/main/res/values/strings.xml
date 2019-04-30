@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Traverse</string>
+    <string name="place1">Jaipur</string>
+    <string name="place2">Haridwar</string>
+    <string name="place3">Mussoorie</string>
+    <string name="place4">Madras</string>
+    <string name="description1">This is my travel diary</string>
+    <string name="description2">Jaipur - The pink city</string>
+    <string name="description3">Serenity of Ganges</string>
+    <string name="description4">Lush green mountains</string>
+    <string name="places">Places</string>
+    <string name="food">Food</string>
+    <string name="people">My Squad</string>
+    <string name="experiences">Moments</string>
+    <string name="tab_text">To the places that I have ever been</string>
+    <string-array name="jplaces">
+        <item>nehargarh fort</item>
+        <item>City Palace</item>
+        <item>Hawa Mahal</item>
+        <item>Lake Palace</item>
+    </string-array>
+</resources>
