@@ -5,8 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class places_jaipur extends AppCompatActivity {
 
@@ -15,9 +16,16 @@ public class places_jaipur extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places_jaipur);
 
-        ArrayAdapter<Common> listAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,Common.places);
+        ArrayList<Common1> list = new ArrayList<Common1>();
+
+        list.add(new Common1("Nahargarh Fort","Nice fort"));
+        list.add(new Common1("City Palace","Nice fort"));
+        list.add(new Common1("Hawa Mahal","Nice fort"));
+        list.add(new Common1("Lake Palace","Nice fort"));
+
+        Common1Adapter adapter = new Common1Adapter(this,list);
         ListView listplaces = (ListView)findViewById(R.id.list_jplaces);
-        listplaces.setAdapter(listAdapter);
+        listplaces.setAdapter(adapter);
 
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
             @Override
