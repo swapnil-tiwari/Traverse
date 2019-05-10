@@ -17,11 +17,10 @@ public class places_jaipur extends AppCompatActivity {
         setContentView(R.layout.activity_places_jaipur);
 
         ArrayList<Common1> list = new ArrayList<Common1>();
-
-        list.add(new Common1("Nahargarh Fort","Nice fort"));
-        list.add(new Common1("City Palace","Nice fort"));
-        list.add(new Common1("Hawa Mahal","Nice fort"));
-        list.add(new Common1("Lake Palace","Nice fort"));
+        list.add(new Common1("Nahargarh Fort",R.drawable.ngarh_fort1));
+        list.add(new Common1("City Palace",R.drawable.city_palace1));
+        list.add(new Common1("Hawa Mahal",R.drawable.hawa_mahal2));
+        list.add(new Common1("Lake Palace",R.drawable.jal_mahal2));
 
         Common1Adapter adapter = new Common1Adapter(this,list);
         ListView listplaces = (ListView)findViewById(R.id.list_jplaces);

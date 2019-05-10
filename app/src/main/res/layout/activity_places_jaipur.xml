@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".places_jaipur"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".places_jaipur">
+
 
     <ListView
+        android:id="@+id/list_jplaces"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/list_jplaces">
-    </ListView>
+        android:scrollbars="none"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
 
 </LinearLayout>

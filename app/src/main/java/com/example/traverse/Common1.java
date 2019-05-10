@@ -3,19 +3,19 @@ package com.example.traverse;
 public class Common1 {
 
     private String name;
-    private String description;
+    private int mImageResourceId;
 
-    public Common1(String name, String description) {
+    public Common1(String name, int imageResouceId) {
         this.name = name;
-        this.description = description;
+        this.mImageResourceId = imageResouceId;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getDescription() {
-        return description;
+    public int getmImageResourceId() {
+        return mImageResourceId;
     }
 }
 

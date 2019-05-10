@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -25,16 +26,16 @@ public class Common1Adapter extends ArrayAdapter<Common1> {
         }
         Common1 currentplace = getItem(position);
         // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.text_view1);
+        TextView nameTextView = (TextView) listItemView.findViewById(R.id.text_view2);
         // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
         nameTextView.setText(currentplace.getName());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
-        TextView numberTextView = (TextView) listItemView.findViewById(R.id.text_view2);
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
-        numberTextView.setText(currentplace.getDescription());
+        imageView.setImageResource(currentplace.getmImageResourceId());
 
         return listItemView;
     }
