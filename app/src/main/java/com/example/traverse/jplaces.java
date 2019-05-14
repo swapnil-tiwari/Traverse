@@ -20,11 +20,17 @@ public class jplaces extends AppCompatActivity {
         TextView name = (TextView)findViewById(R.id.text1);
         name.setText(common.getName());
 
-        TextView des = (TextView)findViewById(R.id.text2);
-        des.setText(common.getDescription());
+        TextView place = (TextView)findViewById(R.id.text2);
+        place.setText(common.getPlacename());
 
         ImageView image = (ImageView)findViewById(R.id.image_view);
         image.setImageResource(common.getImageResouceId());
         image.setContentDescription(common.getName());
+
+        TextView des = (TextView)findViewById(R.id.text3);
+        des.setText(common.getMdescription());
+
+        ImageView image1=(ImageView)findViewById(R.id.image_view1);
+        image1.setImageResource(common.getStarResourceId());
     }
 }

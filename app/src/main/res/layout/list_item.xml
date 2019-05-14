@@ -21,7 +21,8 @@
         android:layout_gravity="center"
         android:layout_marginLeft="20dp"
         android:textSize="30sp"
-        android:textColor="#FFF"/>
+        android:textColor="#FFF"
+        android:fontFamily="@font/pacifico_regular"/>
    </FrameLayout>
     <View
         android:layout_width="match_parent"

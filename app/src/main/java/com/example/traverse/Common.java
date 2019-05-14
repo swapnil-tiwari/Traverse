@@ -3,26 +3,30 @@ package com.example.traverse;
 public class Common {
 
     private String name;
-    private String description;
+    private String placename;
     private int imageResouceId;
+    private String mdescription;
+    private int starResourceId;
 
     //drinks is an array
     public static final Common[] places = {
-            new Common("Nahargarh Fort","Nice fort",R.drawable.back6),
-            new Common("City Palace","Nice fort",R.drawable.exp),
-            new Common("Hawa Mahal","Nice fort",R.drawable.back6),
-            new Common("Lake Palace","Nice fort",R.drawable.back6)
+            new Common("Nahargarh Fort","Jaipur",R.drawable.ngarh_fort1,"Place holder data",R.drawable.star5),
+            new Common("City Palace","Jaipur",R.drawable.city_palace1,"Place holder data",R.drawable.star3),
+            new Common("Hawa Mahal","Jaipur",R.drawable.hawa_mahal2,"Place holder data",R.drawable.star4),
+            new Common("Lake Palace","Jaipur",R.drawable.jal_mahal2,"Place holder data",R.drawable.star4)
 
     };
 
-    public Common(String name,String description, int imageResouceId){
+    public Common(String name,String placename, int imageResouceId, String mdescription, int starResourceId){
         this.name=name;
-        this.description=description;
+        this.placename=placename;
         this.imageResouceId=imageResouceId;
+        this.mdescription=mdescription;
+        this.starResourceId=starResourceId;
     }
 
-    public String getDescription(){
-        return description;
+    public String getPlacename(){
+        return placename;
     }
 
     public String getName(){
@@ -32,4 +36,8 @@ public class Common {
     public int getImageResouceId(){
         return imageResouceId;
     }
+
+    public String getMdescription(){ return mdescription; }
+
+    public int getStarResourceId(){return starResourceId;}
 }
