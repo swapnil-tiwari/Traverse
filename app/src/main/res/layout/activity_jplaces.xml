@@ -16,9 +16,9 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="18dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="25dp"
-        android:layout_marginRight="18dp"
+        android:layout_marginRight="16dp"
         android:elevation="12dp"
         app:cardCornerRadius="10dp">
         <ImageView

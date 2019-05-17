@@ -10,10 +10,10 @@ public class Common {
 
     //drinks is an array
     public static final Common[] places = {
-            new Common("Nahargarh Fort","Jaipur",R.drawable.ngarh_fort1,"Place holder data",R.drawable.star5),
-            new Common("City Palace","Jaipur",R.drawable.city_palace1,"Place holder data",R.drawable.star3),
-            new Common("Hawa Mahal","Jaipur",R.drawable.hawa_mahal2,"Place holder data",R.drawable.star4),
-            new Common("Lake Palace","Jaipur",R.drawable.jal_mahal2,"Place holder data",R.drawable.star4)
+            new Common("Nahargarh Fort","Jaipur",R.drawable.ngarh_fort,"Place holder data",R.drawable.star5),
+            new Common("City Palace","Jaipur",R.drawable.city_palace,"Place holder data",R.drawable.star3),
+            new Common("Hawa Mahal","Jaipur",R.drawable.hawa_mahal,"Place holder data",R.drawable.star4),
+            new Common("Lake Palace","Jaipur",R.drawable.jal_mahal,"Place holder data",R.drawable.star4)
 
     };
 
