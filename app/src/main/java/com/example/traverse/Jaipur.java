@@ -25,7 +25,7 @@ public class Jaipur extends AppCompatActivity {
         cardView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Jaipur.this,places_jaipur.class);
+                Intent intent = new Intent(Jaipur.this,food_jaipur.class);
                 startActivity(intent);}
         });
     }

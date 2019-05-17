@@ -19,7 +19,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/text_view2"
         android:layout_gravity="center"
-        android:layout_marginLeft="20dp"
         android:textSize="30sp"
         android:textColor="#FFF"
         android:fontFamily="@font/pacifico_regular"/>

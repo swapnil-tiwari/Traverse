@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/beach"
         android:supportsRtl="true"
         android:theme="@style/AppTheme1">
-        <activity android:name=".jplaces"></activity>
+        <activity android:name=".food_jaipur"></activity>
+        <activity android:name=".jplaces" />
         <activity android:name=".places_jaipur" />
         <activity
             android:name=".Jaipur"

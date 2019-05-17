@@ -19,7 +19,7 @@
         <item>Hawa Mahal</item>
         <item>Lake Palace</item>
     </string-array>
-    <string name ="ngarh">Nahargarh Fort</string>
+    <string name="ngarh">Nahargarh Fort</string>
     <string name="citypalace">City Palace</string>
     <string name="Hawamahal">Hawa Mahal</string>
     <string name="lakepalace">Lake Palace</string>
