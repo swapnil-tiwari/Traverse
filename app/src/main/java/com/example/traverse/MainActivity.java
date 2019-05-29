@@ -21,5 +21,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }));
+
+        CardView cardView1 =(CardView)findViewById(R.id.mussoorie);
+        cardView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(MainActivity.this,Mussoorie.class);
+                startActivity(intent);
+            }
+        });
     }
 }

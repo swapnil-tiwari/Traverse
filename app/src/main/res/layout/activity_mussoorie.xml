@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jaipur"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tabLayout"
+        app:tabIndicatorColor="#009975"
+        app:tabTextAppearance="@style/MyCustomTabText1"
+        android:background="#f3f9fb">
+
+        <android.support.design.widget.TabItem
+            android:text="@string/description4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TabLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                card_view:cardBackgroundColor="#FFFFFF"
+                card_view:cardCornerRadius="15dp"
+                card_view:cardElevation="15dp"
+                card_view:cardUseCompatPadding="true"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mussoorie1" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#e3e7f1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/places"
+                        android:textColor="#022c43"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/yeonsung_regular"/>
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                card_view:cardBackgroundColor="#FFFFFF"
+                card_view:cardCornerRadius="15dp"
+                card_view:cardElevation="15dp"
+                card_view:cardUseCompatPadding="true"
+                android:id="@+id/card2"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/m_food" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#e3e7f1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/food"
+                        android:textColor="#022c43"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/yeonsung_regular" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                card_view:cardBackgroundColor="#FFFFFF"
+                card_view:cardCornerRadius="15dp"
+                card_view:cardElevation="15dp"
+                card_view:cardUseCompatPadding="true"
+                android:id="@+id/card3"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/m_people" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#e3e7f1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/people"
+                        android:textColor="#022c43"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/yeonsung_regular" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                card_view:cardBackgroundColor="#FFFFFF"
+                card_view:cardCornerRadius="15dp"
+                card_view:cardElevation="15dp"
+                card_view:cardUseCompatPadding="true"
+                android:id="@+id/card4"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/m_moments" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#e3e7f1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/experiences"
+                        android:textColor="#022c43"
+                        android:textSize="25sp"
+                        android:fontFamily="@font/yeonsung_regular" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

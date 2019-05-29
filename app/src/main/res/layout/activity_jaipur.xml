@@ -42,7 +42,9 @@
             card_view:cardBackgroundColor="#FFFFFF"
             card_view:cardCornerRadius="15dp"
             card_view:cardElevation="15dp"
-            card_view:cardUseCompatPadding="true">
+            card_view:cardUseCompatPadding="true"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -83,7 +85,9 @@
             card_view:cardCornerRadius="15dp"
             card_view:cardElevation="15dp"
             card_view:cardUseCompatPadding="true"
-            android:id="@+id/card2">
+            android:id="@+id/card2"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -122,7 +126,10 @@
             card_view:cardBackgroundColor="#FFFFFF"
             card_view:cardCornerRadius="15dp"
             card_view:cardElevation="15dp"
-            card_view:cardUseCompatPadding="true">
+            card_view:cardUseCompatPadding="true"
+            android:id="@+id/card3"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -161,7 +168,10 @@
             card_view:cardBackgroundColor="#FFFFFF"
             card_view:cardCornerRadius="15dp"
             card_view:cardElevation="15dp"
-            card_view:cardUseCompatPadding="true">
+            card_view:cardUseCompatPadding="true"
+            android:id="@+id/card4"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
 
             <RelativeLayout
                 android:layout_width="wrap_content"

@@ -28,5 +28,23 @@ public class Jaipur extends AppCompatActivity {
                 Intent intent = new Intent(Jaipur.this,food_jaipur.class);
                 startActivity(intent);}
         });
+
+        CardView cardView3 = (CardView)findViewById(R.id.card3);
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Jaipur.this,people_jaipur.class);
+                startActivity(intent);
+            }
+        });
+
+        CardView cardView4 = (CardView)findViewById(R.id.card4);
+        cardView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Jaipur.this,moments_jaipur.class);
+                startActivity(intent);
+            }
+        });
     }
 }
