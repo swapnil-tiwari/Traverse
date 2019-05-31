@@ -21,5 +21,14 @@ public class Mussoorie extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        CardView cardView1 = (CardView)findViewById(R.id.card2);
+        cardView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Mussoorie.this,food_mussoorie.class);
+                startActivity(intent);
+            }
+        });
     }
 }

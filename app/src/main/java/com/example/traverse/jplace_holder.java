@@ -1,7 +1,6 @@
 package com.example.traverse;
 
-public class Common {
-
+public class jplace_holder {
     private String name;
     private String placename;
     private int imageResouceId;
@@ -9,15 +8,15 @@ public class Common {
     private int starResourceId;
 
     //drinks is an array
-    public static final Common[] places = {
-            new Common("Nahargarh Fort","Jaipur",R.drawable.ngarh_fort,"Place holder data",R.drawable.star5),
-            new Common("City Palace","Jaipur",R.drawable.city_palace,"Place holder data",R.drawable.star3),
-            new Common("Hawa Mahal","Jaipur",R.drawable.hawa_mahal,"Place holder data",R.drawable.star4),
-            new Common("Lake Palace","Jaipur",R.drawable.jal_mahal,"Place holder data",R.drawable.star4)
+    public static final jplace_holder[] places = {
+            new jplace_holder("Nahargarh Fort","Jaipur",R.drawable.ngarh_fort,"Place holder data",R.drawable.star5),
+            new jplace_holder("City Palace","Jaipur",R.drawable.city_palace,"Place holder data",R.drawable.star3),
+            new jplace_holder("Hawa Mahal","Jaipur",R.drawable.hawa_mahal,"Place holder data",R.drawable.star4),
+            new jplace_holder("Lake Palace","Jaipur",R.drawable.jal_mahal,"Place holder data",R.drawable.star4)
 
     };
 
-    public Common(String name,String placename, int imageResouceId, String mdescription, int starResourceId){
+    public jplace_holder(String name,String placename, int imageResouceId, String mdescription, int starResourceId){
         this.name=name;
         this.placename=placename;
         this.imageResouceId=imageResouceId;

@@ -1,7 +1,10 @@
 package com.example.traverse;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -20,5 +23,15 @@ public class places_mussoorie extends AppCompatActivity {
         Common1Adapter adapter= new Common1Adapter(this,list);
         ListView listView = (ListView)findViewById(R.id.list_jplaces);
         listView.setAdapter(adapter);
+
+        AdapterView.OnItemClickListener itemClickListener= new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent=new Intent(places_mussoorie.this,mplaces.class);
+                intent.putExtra(mplaces.EXTRA_PLACEID,(int)id);
+                startActivity(intent);
+            }
+        };
+        listView.setOnItemClickListener(itemClickListener);
     }
 }

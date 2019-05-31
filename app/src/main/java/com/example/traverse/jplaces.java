@@ -15,7 +15,7 @@ public class jplaces extends AppCompatActivity {
         setContentView(R.layout.activity_jplaces);
 
         int placeid = (Integer)getIntent().getExtras().get(EXTRA_PLACEID);
-        Common common = Common.places[placeid];
+        jplace_holder common = jplace_holder.places[placeid];
 
         TextView name = (TextView)findViewById(R.id.text1);
         name.setText(common.getName());

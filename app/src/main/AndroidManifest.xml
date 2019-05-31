@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/beach"
         android:supportsRtl="true"
         android:theme="@style/AppTheme1">
-        <activity android:name=".places_mussoorie"></activity>
+        <activity android:name=".people_mussoorie"></activity>
+        <activity android:name=".food_mussoorie" />
+        <activity android:name=".mplaces" />
+        <activity android:name=".places_mussoorie" />
         <activity android:name=".moments_jaipur" />
         <activity android:name=".people_jaipur" />
         <activity android:name=".food_jaipur" />
